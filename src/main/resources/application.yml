@@ -1,0 +1,43 @@
+config:
+  chromeDriverUrl: E:\\chromedriver.exe
+
+server:
+  port: 9527
+spring:
+  application:
+    name: zodiac
+  #序列化日期格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/sourcedownload?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+  #显示Sql
+  props:
+    sql:
+      show: true
+  #redis配置
+  redis:
+    timeout: 7000ms
+    jedis:
+      pool:
+        max-active:  1000
+        max-wait:  -1ms
+        max-idle: 10
+        min-idle: 5
+    database: 0
+    host: 172.17.254.242
+    port: 7000
+    password: redis666@com
+
+  main:
+    allow-bean-definition-overriding: true
+
+mybatis-plus:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
