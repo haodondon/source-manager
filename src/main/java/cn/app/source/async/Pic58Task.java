@@ -14,6 +14,7 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.Date;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -139,7 +140,7 @@ public class Pic58Task {
                 qtCookies.append(cookie.toString().substring(0,cookie.toString().indexOf(";") + BigDecimal.ROUND_CEILING));
             });
 
-            account.setAccountLastLoginTime(LocalDateTime.now());
+            account.setAccountLastLoginTime(new Date());
             account.setAccountToken(qtCookies.toString());
 
             this.accountService.updateById(account);

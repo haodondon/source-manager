@@ -52,37 +52,12 @@ public class Pic58Download {
             //校验该账号是否需要登录验证
             if (sourceHtml.select(".login-model").size() > 0) {
 
-                //判断是否需要滑动验证
-                if(sourceHtml.select("#J_NvcCaptchaWrap") .size() > 0){
-
-                    //如果当前是最后一个账号，则开始滑块验证
-                    if(count == accounts.size()){
-                        //如果需要滑动验证,唤醒登录程序，滑块校验
-
-                    }else{
-
-                    }
-
-                }else{
-
-                    //如果不需要滑动验证,直接获取下载地址返回
-                    List<Element> downBtn = sourceHtml.select(".text-orange-b");
-                    downloadUrl = downBtn.get(0).attr("href");
-                    if(downloadUrl.startsWith("https")){
-                        return downloadUrl;
-                    }
-
-                }
-
-            }else{
-
                 log.info("-------------------------------------------------------------------------------------------");
                 log.info("账号:{}，千图网登录失效",account.getAccountName());
                 log.info("-------------------------------------------------------------------------------------------");
 
                 //如果当前是最后一个账号，则开始登录操作
                 if(count == accounts.size()){
-
 
                     //唤醒登录程序
                     String token = this.pic58Task.qqAutoLogin(account);
@@ -102,11 +77,35 @@ public class Pic58Download {
 
                     }
 
-
                 }else{
 
                     //如果不是最后一个账号,异步通知开始登录操作
                     this.pic58Task.qqLogin(account);
+
+                }
+
+
+            }else{
+
+                //判断是否需要滑动验证
+                if(sourceHtml.select(".risk-prompt") .size() > 0){
+
+                    //如果当前是最后一个账号，则开始滑块验证
+                    if(count == accounts.size()){
+                        //如果需要滑动验证,唤醒登录程序，滑块校验
+
+                    }else{
+
+                    }
+
+                }else{
+
+                    //如果不需要滑动验证,直接获取下载地址返回
+                    List<Element> downBtn = sourceHtml.select(".text-orange-b");
+                    downloadUrl = downBtn.get(0).attr("href");
+                    if(downloadUrl.startsWith("https")){
+                        return downloadUrl;
+                    }
 
                 }
 

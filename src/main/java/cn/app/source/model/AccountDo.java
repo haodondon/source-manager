@@ -1,8 +1,11 @@
 package cn.app.source.model;
 
+import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import java.time.LocalDateTime;
 import java.io.Serializable;
+import java.util.Date;
+
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
@@ -26,6 +29,7 @@ public class AccountDo implements Serializable {
     /**
      * ID
      */
+    @TableId
       private String id;
 
     /**
@@ -51,12 +55,12 @@ public class AccountDo implements Serializable {
     /**
      * 最后一次登录时间
      */
-    private LocalDateTime accountLastLoginTime;
+    private Date accountLastLoginTime;
 
     /**
      * 创建时间
      */
-    private LocalDateTime accountCreateTime;
+    private Date accountCreateTime;
 
     /**
      * 错误信息

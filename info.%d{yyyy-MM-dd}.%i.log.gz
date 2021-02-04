@@ -1,0 +1,206 @@
+2020-12-30 17:31:18.015  INFO 1540 --- [main] cn.app.source.Application                : Starting Application on DESKTOP-RS18NUR with PID 1540 (F:\hdd\source-manager\target\classes started by donglian in F:\hdd\source-manager)
+2020-12-30 17:31:18.017  INFO 1540 --- [main] cn.app.source.Application                : No active profile set, falling back to default profiles: default
+2020-12-30 17:31:18.966  INFO 1540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9527 (http)
+2020-12-30 17:31:18.973  INFO 1540 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-12-30 17:31:18.973  INFO 1540 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-12-30 17:31:19.053  INFO 1540 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-12-30 17:31:19.053  INFO 1540 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 992 ms
+2020-12-30 17:31:19.183  INFO 1540 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2020-12-30 17:31:19.337  INFO 1540 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2020-12-30 17:31:20.060  INFO 1540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:31:20.255  INFO 1540 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-12-30 17:31:20.310  INFO 1540 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9527 (http) with context path ''
+2020-12-30 17:31:20.321  INFO 1540 --- [main] cn.app.source.Application                : Started Application in 2.669 seconds (JVM running for 3.398)
+2020-12-30 17:31:31.320  INFO 1540 --- [http-nio-9527-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-30 17:31:31.320  INFO 1540 --- [http-nio-9527-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-12-30 17:31:31.327  INFO 1540 --- [http-nio-9527-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2020-12-30 17:31:31.344  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.345  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.346  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.347  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : ----------------------testa
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.348  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.349  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.350  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:31:31.351  INFO 1540 --- [http-nio-9527-exec-2] c.a.s.controller.DownloadController      : 少年，限流了 --Port：当前服务访问人数较多,请稍后再试
+2020-12-30 17:50:04.326  INFO 1540 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-12-30 17:50:04.327  INFO 1540 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-30 17:50:04.328  INFO 1540 --- [SpringContextShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} closed

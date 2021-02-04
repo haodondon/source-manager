@@ -7,6 +7,7 @@ import cn.app.source.service.AccountService;
 import cn.app.source.service.DownloadService;
 import cn.app.source.util.BaseUtil;
 import cn.app.source.util.Result;
+import cn.app.source.util.ResultCode;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.apache.http.impl.client.HttpClients;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -55,8 +56,8 @@ public class DownloadServiceImpl implements DownloadService {
         //校验当前下载是否需要滑动验证,并且校验账号token是否可用
         downloadUrl = pic58Download.checkAccountValid(accounts, downloadUrl);
 
+        return new Result(ResultCode.SUCCESS,downloadUrl);
 
-        return null;
     }
 
     /**

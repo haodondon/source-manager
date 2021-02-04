@@ -1,5 +1,6 @@
 config:
-  chromeDriverUrl: E:\\chromedriver.exe
+  chromeDriverUrl: D:\\chromedriver.exe
+
 
 server:
   port: 9527
@@ -12,7 +13,7 @@ spring:
     time-zone: GMT+8
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/sourcedownload?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    url: jdbc:mysql://192.168.10.234:3306/sourcedownload?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
     username: root
     password: root
     type: com.alibaba.druid.pool.DruidDataSource
@@ -30,9 +31,9 @@ spring:
         max-idle: 10
         min-idle: 5
     database: 0
-    host: 172.17.254.242
+    host: 192.168.10.234
     port: 7000
-    password: redis666@com
+    password: 123456
 
   main:
     allow-bean-definition-overriding: true
